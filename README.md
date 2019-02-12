@@ -10,4 +10,7 @@ These implementations are from scratch coded in Python using only numpy. Both of
 Files:
 1.ADALINE_LMS:
 
-ADALINE unite is formed only by the weights and bias, the ouput is y=x'w+b, where y is the output, x is the input, w is the weights and b is the bias, it doesn't have an activation function, but for better practice, the function purelin 
+ADALINE unite is formed only by the weights and bias, the ouput is y=x'w+b, where y is the output, x is the input, w is the weights and b is the bias, it doesn't have an activation function, but for better practice, the function getOutput is used for the propagation of input through unit. From 100 flowers, 90 of them are used for training and the others 10 are used for testing. 
+I trained the ADALINE unit for 3000 epochs using a learn rate = 0.0001, and reduced the error given by the SSE function to a mean of 0.5, and a rate of success of 0.8 in average. 
+The learning rate and the number of epochs can be modified in order to get a better performance.
+
