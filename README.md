@@ -14,3 +14,6 @@ ADALINE unite is formed only by the weights and bias, the ouput is y=x'w+b, wher
 I trained the ADALINE unit for 3000 epochs using a learn rate = 0.0001, and reduced the error given by the SSE function to a mean of 0.5, and a rate of success of 0.8 in average. 
 The learning rate and the number of epochs can be modified in order to get a better performance.
 
+2.Delta Rule Perceptron
+This file contains an implementation for the a perceptron with logsig activation function, and for updateing of weights uses the delta rule (based on partial derivative of the error function with respect to each weight). The learning rule looks like: Wk= Wk-1 + r * (d - y)*y(1-y)*x, where Wk is the values of weights at epoch k, y is the output of perceptron and x is the input. From 100 flowers, 80 of them are used for training and the others 20 are used for testing. 
+I trained the perceptron for 3000 epochs
